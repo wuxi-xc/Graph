@@ -1,5 +1,5 @@
 import os
-import torch1
+import torch
 from torch.utils.ffi import create_extension
 
 this_file = os.path.dirname(__file__)
