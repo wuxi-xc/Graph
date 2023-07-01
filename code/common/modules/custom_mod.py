@@ -1,7 +1,6 @@
 from torch.nn.modules.module import Module
 from functions.custom_func import JaggedLogSoftmax, JaggedArgmax, JaggedMax
-import networkx as nx
-import numpy as np
+# import networkx as nx
 
 class JaggedLogSoftmaxModule(Module):
     def forward(self, logits, prefix_sum):
