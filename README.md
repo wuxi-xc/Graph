@@ -37,7 +37,7 @@ The current code depends on pytorch 0.3.1, cffi and CUDA 9.1. Please install usi
 
     pip install http://download.pytorch.org/whl/cu91/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl 
     pip install cffi==1.11.2
-Windows：
+    Windows：
     download address：https://conda.anaconda.org/peterjc123/win-64/pytorch-0.3.1-py36_cuda90_cudnn7he774522_2.tar.bz2
     install：conda install --use-local C:\ProgramData\Anaconda3\pkgs\pytorch-0.3.1-py36_cuda90_cudnn7he774522_2.tar.bz2
     
